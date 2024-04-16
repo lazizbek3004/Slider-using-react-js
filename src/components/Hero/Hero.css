@@ -1,0 +1,38 @@
+.container{
+    width: 100%;
+    margin-top: 640px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.dots{
+    display: flex;
+    gap: 10px;
+}
+.dot{
+    list-style: none;
+    width: 15px;
+    height: 15px;
+    background-color: gray;
+    border-radius: 7.5px;
+    cursor: pointer;
+}
+.orange{
+    background-color: orangered;
+}
+.next{
+    position: absolute;
+    top: 0px;
+    right: 40px;
+    width: 30px;
+    height: 30px;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+    span{
+        color: white;
+    }
+}
